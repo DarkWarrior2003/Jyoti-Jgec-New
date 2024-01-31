@@ -1,0 +1,7 @@
+.herobackground{
+    background-image: url(/src/components/images/herobackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
