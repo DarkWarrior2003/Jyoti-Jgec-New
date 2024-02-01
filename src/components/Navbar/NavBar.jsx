@@ -47,13 +47,21 @@ const NavBar = () => {
         </div>
       </div>
       <div className=" flex  backgroundnav lg:justify-center md:justify-center w-full lg:px-8 px-4 items-center bg-slate-200 ">
+        <div className="lg:block md:block hidden">
+
         <img
           src={logo}
-          className="z-20 lg:w-[12%] md:w-[15%] w-[20%] lg:absolute md:absolute md:left-4 lg:left-10 lg:my-[-90px] md:my-[-80px]  "
+          className="z-20 lg:w-[12%] md:w-[15%] w-[20%] lg:absolute md:absolute md:left-4 lg:left-10 lg:my-[-90px] md:my-[-70px]  "
           alt=""
-        />
+          />
+          </div>
+          <img
+          src={logo}
+          className="z-20 lg:w-[12%] lg:hidden md:hidden block md:w-[15%] w-[20%] lg:absolute md:absolute md:left-4 lg:left-10 lg:my-[-90px] md:my-[-70px]  "
+          alt=""
+          />
 
-        <div className="py-4 font-medium heading md:ml-48 lg:ml-10 lg:text-5xl md:text-5xl text-2xl text-center w-full text-[#d65b4b] ">
+        <div className="py-4 font-medium heading md:ml-[2.5rem] lg:ml-10 lg:text-5xl md:text-5xl text-2xl text-center w-full text-[#d65b4b] ">
           JYOTI - A RAY OF NEW HOPE
         </div>
         <img
