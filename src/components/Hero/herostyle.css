@@ -5,3 +5,8 @@
     background-size: cover;
     
 }
+@media (max-width: 480px) {
+   .herobackground{
+    background-image: url(/src/components/images/paper.png);
+   }
+}

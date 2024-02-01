@@ -8,10 +8,10 @@ import { FaGreaterThan } from "react-icons/fa6";
 import { FaFacebook, FaLinkedin, FaTelegram } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="lg:p-10 md:p-8 mt-5  bg-[#4f181ef1] ">
-      <div className="  grid grid-cols-3 gap-4  ">
-        <div className="flex flex-col ">
-          <img src={logo} width={"50%"} alt="" />
+    <footer className="lg:p-10 md:p-8 mt-5 pt-8  bg-[#4f181ef1] ">
+      <div className="  grid md:grid lg:grid-cols-3 md:grid-cols-3  gap-4  ">
+        <div className="flex flex-col lg:items-start md:items-start items-center ">
+          <img src={logo} width={"50%"}  alt="" />
           <div className="px-10 py-4">
             <h2 className=" text-yellow-500 font-medium text-3xl">
               Get in Touch
@@ -41,12 +41,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col">
-          <div className="pb-10">
+        <div className="lg:flex md:flex py-8 hidden  px-10 lg:p-0 md:p-0 flex-col">
+          <div className="pb-10 ">
             <h2 className=" text-yellow-500 font-medium text-3xl">
               Quick Links
             </h2>
-            <div className=" w-[20%] mt-2 border-[3px] rounded border-orange-600"></div>
+            <div className=" w-[20%]  mt-2 border-[3px] rounded border-orange-600"></div>
           </div>
           <div className="text-white text-[18px] flex flex-col gap-8 font-medium">
             <ul>
@@ -105,7 +105,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex  flex-col">
+        <div className="flex lg:p-0 md:p-0 px-10 pt-8 flex-col">
           <div className="pb-10">
             <h2 className=" text-yellow-500 font-medium text-3xl">About Us</h2>
             <div className=" w-[20%] mt-2 border-[3px] rounded border-orange-600"></div>
