@@ -13,6 +13,12 @@ const NavBar = () => {
   const  handleShow=()=>{
     show?setshow(false):setshow(true);
   }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   
   return (
     <>
@@ -47,7 +53,7 @@ const NavBar = () => {
           alt=""
         />
 
-        <div className="py-4 font-[400] heading md:ml-48 lg:ml-10 lg:text-5xl md:text-5xl text-2xl text-center w-full text-[#d65b4b] ">
+        <div className="py-4 font-medium heading md:ml-48 lg:ml-10 lg:text-5xl md:text-5xl text-2xl text-center w-full text-[#d65b4b] ">
           JYOTI - A RAY OF NEW HOPE
         </div>
         <img
@@ -73,6 +79,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Home
             </NavLink>
@@ -84,6 +91,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Gallery
             </NavLink>
@@ -95,6 +103,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Team
             </NavLink>
@@ -106,6 +115,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Notice
             </NavLink>
@@ -117,6 +127,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Support
             </NavLink>
@@ -128,6 +139,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Contact
             </NavLink>
@@ -147,6 +159,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Home
             </NavLink>
@@ -158,6 +171,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Gallery
             </NavLink>
@@ -169,6 +183,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Team
             </NavLink>
@@ -180,6 +195,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Notice
             </NavLink>
@@ -191,6 +207,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Support
             </NavLink>
@@ -202,6 +219,7 @@ const NavBar = () => {
               style={({ isActive }) =>
                 isActive ? { backgroundColor: "rgba(189, 125, 30, 0.587)" } : {}
               }
+              onClick={scrollToTop}
             >
               Contact
             </NavLink>
