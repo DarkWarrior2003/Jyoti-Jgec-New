@@ -68,10 +68,10 @@ const PrizeGallery = () => {
   return (
     
     <div className="">
-      <div className=" md:p-12 text-center  lg:px-12 ">
-        <p className="text-center pb-9 md:text-6xl lg:text-5xl text-[#b0703b]">
-          Prizes Gallery
-        </p>
+      <div className=" lg:px-12 ">
+      <p className=" pb-9 md:text-6xl lg:text-5xl text-[#b0703b]">
+          
+          </p>
         <Gallery galleryImages={galleryImages} />
         <div style={styleimg}  className=" mt-4">
           <Gallery galleryImages={galleryImages1}  />
