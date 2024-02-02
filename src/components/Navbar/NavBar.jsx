@@ -61,8 +61,8 @@ const NavBar = () => {
           alt=""
           />
 
-        <div className="py-4 font-medium heading md:ml-[2.5rem] lg:ml-10 lg:text-5xl md:text-4xl text-2xl text-center  text-[#d65b4b] ">
-          JYOTI - A RAY OF NEW HOPE
+        <div className="py-4 font-semibold heading md:ml-[2.5rem] lg:ml-10 lg:text-5xl md:text-4xl text-2xl text-center  text-[#d65b4b] ">
+          JYOTI - A RAY OF HOPE
         </div>
         <img
           src={logo1}

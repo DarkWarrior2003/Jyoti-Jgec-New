@@ -8,10 +8,10 @@ const TeamCard = (props) => {
             className="w-80 relative hover:scale-105 transition-transform lg:mb-4  bg-[#f6f7f8] rounded-[6px]  overflow-hidden"
             style={{ boxShadow: "0 8px 40px rgba(0, 0, 0, 0.2)" }}
           >
-            <a href={props.link} rel='noreferrer' target="_blank" className="">
+            <a href={props.link} rel='noreferrer' target="_blank" className=" overflow-hidden">
               <img
                 src={props.image}
-                className="rounded-full w-[120px] mx-auto my-10 p-0 border-[6px] box-content border-[#231f39] shadow-[0px_27px_16px_-11px_rgba(31,27,56,0.25)] transition-all duration-150 ease-in hover:scale-105 cursor-pointer slide-in-elliptic-top-fwd " alt=''
+                className="rounded-full w-[120px] overflow-hidden mx-auto my-10 p-0 border-[6px] box-content border-[#231f39] shadow-[0px_27px_16px_-11px_rgba(31,27,56,0.25)] transition-all duration-150 ease-in hover:scale-105 cursor-pointer slide-in-elliptic-top-fwd " alt=''
               />
             </a>
             <h1 className="text-xl text-black font-bold text-center">

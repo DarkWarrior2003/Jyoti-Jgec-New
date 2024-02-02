@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 .herobackground{
     background-image: url(/src/components/images/herobackground.png);
     background-repeat: no-repeat;
@@ -9,4 +10,7 @@
    .herobackground{
     background-image: url(/src/components/images/paper.png);
    }
+}
+.text-style{
+    font-family: 'Rubik', sans-serif;
 }

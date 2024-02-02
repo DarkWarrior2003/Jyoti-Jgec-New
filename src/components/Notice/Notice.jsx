@@ -12,7 +12,7 @@ const data = [
 ]
 const Notice = () => {
   return (
-    <div className="container h-full">
+    <div className=" flex-col  h-full">
       <div className="flex justify-center mt-8 items-center flex-col">
 
       <h3 className="text-center text-4xl text-amber-700 pt-5 ">NOTICE BOARD</h3>
