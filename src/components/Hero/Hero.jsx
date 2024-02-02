@@ -1,8 +1,11 @@
 import React from "react";
 import "./herostyle.css"
+import Achievements from "../Achievements/Achievements";
+import Performance from  "../Performance/Performance";
 const Hero = () => {
   return (
-    <div className=" herobackground mt-4 ml-2 ">
+    <>
+    <div className=" herobackground my-4 ml-2 ">
       <div className=" lg:grid md:grid grid-cols-2 ">
         <div className="  lg:h-[80vh]"></div>
         <div className=" pt-[2em]  ">
@@ -17,7 +20,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      
     </div>
+    
+    <Achievements/>
+    <Performance/>
+    </>
   );
 };
 
