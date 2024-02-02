@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
     <div className=" herobackground my-4 ml-2 ">
-      <div className=" lg:grid md:grid grid-cols-2 ">
+      <div className=" lg:grid md:grid md:grid-cols-2  lg:grid-cols-2 ">
         <div className="  lg:h-[80vh]"></div>
         <div className=" pt-[2em]  ">
           <div className=" font-medium lg:p-8 md:p-8 p-4 md:text-[30px] text-[20px]  lg:text-[30px]  " style={{ color: "rgb(154 99 18)" }}>

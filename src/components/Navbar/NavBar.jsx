@@ -29,7 +29,7 @@ const NavBar = () => {
         >
           A Free Night Education Center By Students Of JGEC{" "}
         </div>
-        <div className="text-3xl lg:flex md:flex gap-8 text-[#ffffffc4] lg:absolute md:absolute hidden right-10">
+        <div className="text-3xl lg:flex md:flex gap-4 text-[#ffffffc4] lg:absolute md:absolute hidden right-10">
           <a
             href="https://www.facebook.com/jgecjyoti?mibextid=ZbWKwL"
             target="_blank"
@@ -61,7 +61,7 @@ const NavBar = () => {
           alt=""
           />
 
-        <div className="py-4 font-medium heading md:ml-[2.5rem] lg:ml-10 lg:text-5xl md:text-5xl text-2xl text-center w-full text-[#d65b4b] ">
+        <div className="py-4 font-medium heading md:ml-[2.5rem] lg:ml-10 lg:text-5xl md:text-4xl text-2xl text-center  text-[#d65b4b] ">
           JYOTI - A RAY OF NEW HOPE
         </div>
         <img
