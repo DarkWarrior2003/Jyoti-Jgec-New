@@ -50,8 +50,8 @@ const data = [{
 const Achievements = () => {
   
   return (
-    <div className='  bg-[#eee8e8c5]  lg:p-10 '>
-      <div className='border-[1px] mb-10 border-amber-800 w-full'></div>
+    <div className='  bg-[#eee8e8c5]  md:p-10 p-2 lg:p-10 '>
+      <div className='border-[1px] mb-16 border-amber-800 w-full'></div>
         <h2 className='text-center underline font-medium pb-7 text-amber-700 md:text-4xl text-3xl lg:text-4xl'>Our Achievements</h2>
         <Swiper
        modules={[Autoplay, Pagination, Navigation]}
@@ -108,7 +108,7 @@ const Achievements = () => {
                         </SwiperSlide>
                     ))}
       </Swiper>
-      <div className='border-[1px] mt-10 border-amber-700 w-full'></div>
+      <div className='border-[1px] mt-16 border-amber-700 w-full'></div>
     </div>
   )
 }
