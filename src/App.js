@@ -8,6 +8,7 @@ import Team from "./components/Team/Team";
 import Album from "./components/Gallery/Album"
 import Notice from "./components/Notice/Notice";
 import Contact from "./components/Contact/Contact";
+import Form from "./components/Contact/Form";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/gallery" element={<Album/>} />
         <Route path="/notice" element={<Notice/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/form" element={<Form/>} />
       </Routes>
       <Footer/>
     </>

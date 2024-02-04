@@ -442,7 +442,7 @@ select.form-control:not([size]):not([multiple]) {
 .timeline .timeline-time .date,
 .timeline .timeline-time .time {
     display: block;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .timeline .timeline-time .date {
