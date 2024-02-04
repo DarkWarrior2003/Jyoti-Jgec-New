@@ -37,10 +37,10 @@ const Notice = () => {
               <div className="tab-content p-0">
                 <div className="tab-pane fade active show" id="profile-post">
                   <ul className="timeline ">
-                    {notice && notice.map((item) => (
+                    {notice && notice.map((item,e) => (
                       (
-                        <li key={item.id}>
-                          <div className="timeline-time">
+                        <li key={item.releaseDate}>
+                          <div className="timeline-time lg:block md:block hidden">
                             <span className="date">{item.releaseDate}</span>
                             
                           </div>
@@ -53,14 +53,15 @@ const Notice = () => {
                             <div className="timeline-header">
 
                               <span className="username">
-                                <p className=" text-right text-sm">{item.releaseDate}</p>
+                                <p className=" text-right text-sm font-medium">Notice {e+1}</p>
                               </span>
 
                             </div>
                             <div className="timeline-content">
+                              
                               <a href={item.filename.asset.url}
                                 target="_blank"
-                                rel="noreferrer" className="text-[18px] text-black font-normal">
+                                rel="noreferrer" className="text-[18px] text-black font-medium">
                                 {item.title}
                               </a>
                             </div>
